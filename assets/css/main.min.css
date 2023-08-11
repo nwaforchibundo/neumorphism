@@ -12,11 +12,11 @@ neumorphism-button{background:linear-gradient(145deg,hsla(240,2%,40%,.15) 15%,rg
 neumorphism-card{box-shadow:inset 2px 2px 4px #000,inset -2px -2px 4px #636363}.
 neumorphism-card-big{box-shadow:5px 5px 4px #161718,-5px -5px 4px #404346} */
 
-/* #preloader{-ms-flex-align:center;align-items:center;background:#2b2d2f;display:-ms-flexbox;display:flex;height:100%;-ms-flex-pack:center;justify-content:center;left:0;margin:.5rem;padding:.5rem;position:absolute;right:0;z-index:999}
+#preloader{-ms-flex-align:center;align-items:center;background:#2b2d2f;display:-ms-flexbox;display:flex;height:100%;-ms-flex-pack:center;justify-content:center;left:0;margin:.5rem;padding:.5rem;position:absolute;right:0;z-index:999}
 #preloader .load{height:6rem;left:50%;position:absolute;top:50%;transform:translate(-50%,-50%);width:6rem}#preloader .load hr{animation:a 2s ease infinite;border:0;height:40%;margin:0;position:absolute;width:40%}
 #preloader .load :first-child{animation-delay:-1.5s;background:#fff}#preloader .load :nth-child(2){animation-delay:-1s;background:#ff073a}#preloader .load :nth-child(3){animation-delay:-.5s;background:#fff}
 #preloader .load :last-child{background:#ff073a}@keyframes a{0%,to{transform:translate(0)}25%{transform:translate(160%)}50%{transform:translate(160%,160%)}75%{transform:translateY(160%)}}.footer{background:#2b2d2f;color:#fff;margin:.5rem;padding:1rem;text-align:center}.footer a{color:#ff073a}
-#landing,.footer a:focus,.footer a:hover{background:#2b2d2f;color:#fff} */
+#landing,.footer a:focus,.footer a:hover{background:#2b2d2f;color:#fff}
 #landing{display:-ms-flexbox;display:flex;height:100%;text-align:center}
 #landing,.landing-title{margin:.5rem;padding:.5rem}.landing-title{left:0;position:absolute;right:0;top:40%}.
 
