@@ -14,7 +14,7 @@ baseurl: "/neumorphism"
 # username: Sojo
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Jekyll Theme
+# typing_text: Jekyll Theme
 
 
 ### END OF VALUES YOU SHOULD CHANGE ###
