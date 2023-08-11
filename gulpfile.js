@@ -97,35 +97,35 @@ function browserSyncReload(done) {
 //     .on('close', done);
 // }
 
-/**
- * Watch source files for changes & recompile
- * Watch html/md files, run Jekyll & reload BrowserSync
- */
-function watchData() {
-  gulp.watch(
-    [ '_data/*.yml', '_config.yml', 'assets/*.json' ],
-    gulp.series(jekyll, browserSyncReload)
-  );
-}
+// /**
+//  * Watch source files for changes & recompile
+//  * Watch html/md files, run Jekyll & reload BrowserSync
+//  */
+// function watchData() {
+//   gulp.watch(
+//     [ '_data/*.yml', '_config.yml', 'assets/*.json' ],
+//     gulp.series(jekyll, browserSyncReload)
+//   );
+// }
 
-function watchMarkup() {
-  gulp.watch(
-    [ 'index.html', '_includes/*.html', '_layouts/*.html' ],
-    gulp.series(jekyll, browserSyncReload)
-  );
-}
+// function watchMarkup() {
+//   gulp.watch(
+//     [ 'index.html', '_includes/*.html', '_layouts/*.html' ],
+//     gulp.series(jekyll, browserSyncReload)
+//   );
+// }
 
-function watchScripts() {
-  gulp.watch([ '_js/*.js' ], scripts);
-}
+// function watchScripts() {
+//   gulp.watch([ '_js/*.js' ], scripts);
+// }
 
-function watchStyles() {
-  gulp.watch([ '_sass/*.scss' ], styles);
-}
+// function watchStyles() {
+//   gulp.watch([ '_sass/*.scss' ], styles);
+// }
 
-function watch() {
-  gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
-}
+// function watch() {
+//   gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
+// }
 
 var compile = gulp.parallel(styles, stylesVendors, scripts, scriptsVendors);
 var serve = gulp.series(compile, jekyll, browserSyncServe);
