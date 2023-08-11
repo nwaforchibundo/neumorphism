@@ -11,20 +11,11 @@ baseurl: "/neumorphism"
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
-username: Sojo
+# username: Sojo
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
 typing_text: Jekyll Theme
-# email: Your E-Mail address for the email button.
-email: email@example.com
-# For every social button you want to display, set your username or userid
-# If you do not use one of the following websites, then leave it empty
-# > twitter_username:
-github_username: longpdo
-codepen_username: exampleUser
-dev_username: exampleUser
-linkedin_username: exampleUser
-twitter_username: exampleUser
+
 
 ### END OF VALUES YOU SHOULD CHANGE ###
 
