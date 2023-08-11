@@ -1,4 +1,3 @@
 @charset "UTF-8";@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
-#landing{display:-ms-flexbox;display:flex;height:100%;text-align:center}
-/* #landing,.landing-title{margin:.5rem;padding:.5rem}.landing-title{left:0;position:absolute;right:0;top:40%}. */
+#landing{display:-ms-flexbox;display:flex;height:100%;text-align:right}
